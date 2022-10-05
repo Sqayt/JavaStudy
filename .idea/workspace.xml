@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2bb5758-3905-4a74-9739-ea1ee9cbd8b3" name="Changes" comment="">
+    <list default="true" id="5a0f9261-f8f4-4635-b0b8-ed32bd08b95d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/MainApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2FOPgFlfbY95gLVTl6Zg7OC3ct4" />
+  <component name="ProjectId" id="2FL7yQwC6AnpnX4gBJF4nhHxe6t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,77 +38,45 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_directory_selection": "E:/develop/Study/Java/Yandex/src/main/java",
-    "last_opened_file_path": "E:/develop/Study/Java/Tasks",
+    "last_opened_file_path": "E:/develop/Study/Java/HR",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\develop\Study\Java\Tasks\src\main\java\hr" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.hr.MainApp" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.ivanovds.hr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.MainApp" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c2bb5758-3905-4a74-9739-ea1ee9cbd8b3" name="Changes" comment="" />
-      <created>1664360268639</created>
+      <changelist id="5a0f9261-f8f4-4635-b0b8-ed32bd08b95d" name="Changes" comment="" />
+      <created>1664259767977</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1664360268639</updated>
-      <workItem from="1664360270199" duration="651000" />
-      <workItem from="1664361332854" duration="2073000" />
-      <workItem from="1664367733775" duration="277000" />
-      <workItem from="1664423576285" duration="12019000" />
-      <workItem from="1664447176002" duration="625000" />
-      <workItem from="1664525140084" duration="11497000" />
-      <workItem from="1664967330405" duration="2892000" />
+      <updated>1664259767977</updated>
+      <workItem from="1664259769657" duration="11815000" />
+      <workItem from="1664340647854" duration="15402000" />
+      <workItem from="1664523029647" duration="98000" />
+      <workItem from="1664523176719" duration="1202000" />
     </task>
-    <task id="LOCAL-00001" summary=".">
-      <created>1664367891207</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1664367891207</updated>
-    </task>
-    <task id="LOCAL-00002" summary=".">
-      <created>1664969289226</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1664969289226</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="j" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
