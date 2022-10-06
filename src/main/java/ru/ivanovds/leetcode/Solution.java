@@ -1,61 +1,92 @@
 package ru.ivanovds.leetcode;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.BitSet;
+import java.util.List;
 
 public class Solution {
-
-    public Solution() {
-
+    public int searchInsert(int[] nums, int target) {
+        int index = Arrays.binarySearch(nums, target);
+        return index >= 0 ? index : -index-1;
     }
 
-    public int pivotIndex(int[] nums) {
-        int sum = 0, leftsum = 0;
-        for (int x: nums) sum += x;
-        for (int i = 0; i < nums.length; ++i) {
-            if (leftsum == sum - leftsum - nums[i]) return i;
-            leftsum += nums[i];
-        }
-        return -1;
-    }
-
-    public String addStrings(String num1, String num2) {
-        if(num1==null || num1.isEmpty()){
-            return num2;
-        }
-        if(num2==null || num2.isEmpty()){
-            return num1;
-        }
-        int len1 = num1.length();
-        int len2 = num2.length();
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode dummyHead = new ListNode(0);
+        ListNode curr = dummyHead;
         int carry = 0;
-        int c1;
-        int c2;
-        StringBuilder answer = new StringBuilder();
-        while(len1>0 || len2>0 || carry > 0){
-            c1 = len1-- > 0 ? num1.charAt(len1) - '0': 0;
-            c2 = len2-- > 0 ? num2.charAt(len2) - '0': 0;
-            int sum = carry + c1 + c2;
-            carry = sum/10;
-            answer.insert(0, sum % 10);
+
+        while (l1 != null || l2 != null || carry != 0) {
+            int x = (l1 != null) ? l1.val : 0;
+            int y = (l2 != null) ? l2.val : 0;
+            int sum = carry + x + y;
+            carry = sum / 10;
+            curr.next = new ListNode(sum % 10);
+            curr = curr.next;
+            if (l1 != null)
+                l1 = l1.next;
+            if (l2 != null)
+                l2 = l2.next;
         }
 
-        return answer.toString();
+        return dummyHead.next;
     }
 
-    public int mostFrequentEven(int[] nums) {
-        HashMap<Integer, Integer> table = new HashMap<>();
-        for(int n: nums)
-            if( (n&1) == 0){
-                Integer value = table.get(n);
-                value = (value == null) ? 1 : value + 1;
-                table.put(n, value);
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        if (l1 == null) return l2;
+        if (l2 == null) return l1;
+
+        ListNode dummy = new ListNode(-1); // sentinel
+        ListNode ptr = dummy;
+        while (l1 != null && l2 != null) {
+            if (l1.val < l2.val) {
+                ptr.next = l1;
+                l1 = l1.next;
+            } else {
+                ptr.next = l2;
+                l2 = l2.next;
             }
+            ptr = ptr.next;
+        }
 
-        int ans = -1, frec = 0;
-        for(Map.Entry<Integer, Integer> it : table.entrySet())
-            if(it.getValue() > frec || (it.getValue() == frec && ans > it.getKey() ))
-            {frec = it.getValue(); ans = it.getKey();}
+        while (l1 != null) {
+            ptr.next = l1;
+            ptr = ptr.next;
+            l1 = l1.next;
+        }
 
-        return ans;
+        while (l2 != null) {
+            ptr.next = l2;
+            ptr = ptr.next;
+            l2 = l2.next;
+        }
+
+        return dummy.next;
+    }
+
+    public boolean isValidSudoku(char[][] board) {
+        final int MAXZIP = 99999;
+        BitSet b = new BitSet(MAXZIP + 1);
+        b.set(0, MAXZIP, false);
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[i].length; j++) {
+
+            }
+        }
+        return false;
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int[] nums = {1};
+
+//        System.out.println(solution.searchInsert(nums, 1));
+}
+
+    class ListNode {
+        int val;
+        ListNode next;
+        ListNode() {}
+        ListNode(int val) { this.val = val; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 }
