@@ -1,6 +1,6 @@
 package ru.ivanovds;
 
-import java.util.Scanner;
+import java.util.Random;
 
 public class MainApp {
 
@@ -8,24 +8,56 @@ public class MainApp {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        int[] array = fillArray(10, 0, 100);
+        printArray(array);
 
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        int c = scanner.nextInt();
+        quickSort(array, 0, 9);
+        printArray(array);
+    }
 
-        double disk = Math.pow(b,2) - (4 * a * c);
-        if (disk == 0) {
-            double x = (double) (-b) / (2 * a);
-            System.out.println(x);
-        } else if (disk > 0) {
-            double x1 = (-b + Math.sqrt(disk)) / (2 * a);
-            double x2 = (-b - Math.sqrt(disk)) / (2 * a);
-            if (x1 < x2) {
-                System.out.println(x1 + " " + x2);
-            } else {
-                System.out.println(x1 + " " + x2);
+    private static void quickSort(int[] arr, int begin, int end) {
+        if (begin < end) {
+            int partitionIndex = partition(arr, begin, end);
+
+            quickSort(arr, begin, partitionIndex - 1);
+            quickSort(arr, partitionIndex + 1, end);
+        }
+    }
+
+    private static int partition(int arr[], int begin, int end) {
+        int pivot = arr[end];
+        int i = (begin-1);
+
+        for (int j = begin; j < end; j++) {
+            if (arr[j] <= pivot) {
+                i++;
+
+                int swapTemp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = swapTemp;
             }
         }
+
+        int swapTemp = arr[i+1];
+        arr[i+1] = arr[end];
+        arr[end] = swapTemp;
+
+        return i+1;
+    }
+
+    private static int[] fillArray(int size, int origin, int bound) {
+        int[] array = new int[size];
+        for(int i = 0; i < size; i++) {
+            array[i] = new Random().nextInt(origin, bound);
+        }
+
+        return array;
+    }
+
+    private static void printArray(int[] array) {
+        for (Integer el: array) {
+            System.out.print(el + " ");
+        }
+        System.out.println();
     }
 }

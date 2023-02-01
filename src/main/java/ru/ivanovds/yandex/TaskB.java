@@ -1,5 +1,7 @@
 package ru.ivanovds.yandex;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -7,57 +9,38 @@ import java.util.Scanner;
 public class TaskB {
 
     public static void main(String[] args) {
+        TaskB taskB = new TaskB();
         Scanner scanner = new Scanner(System.in);
 
-        int n = scanner.nextInt();
-        scanner.nextLine();
+        List<String> seatPlane = taskB.inputList(scanner);
+        List<String> seatGroups = taskB.inputList(scanner);
 
-        List<String[]> place = createList(scanner, n, "place");
-
-
-        int m = scanner.nextInt();
-        scanner.nextLine();
-
-        if (m < 0 || m > 100) {
-            return;
-        }
-
-        List<String[]> groups = createList(scanner, m, "groups");
+        taskB.print(seatPlane);
+        taskB.print(seatGroups);
     }
 
-
-    private static List<String[]> createList(Scanner scanner, int size, String type) {
-        if (scanner == null || type == null) {
+    public List<String> inputList(Scanner scanner) {
+        if (scanner == null) {
             return new ArrayList<>();
         }
-        List<String[]> place = new ArrayList<>(size);
+        int row = scanner.nextInt();
+        System.out.println(row);
+        List<String> result = new ArrayList<>();
 
-        for (int i = 0; i < size; i++) {
-            String tmp = scanner.nextLine();
-            if (type.equals("place")) {
-                String[] tmpArray = tmp.split("");
-                place.add(tmpArray);
-            } else if (type.equals("groups")) {
-                String[] tmpArray = tmp.split(" ");
-                place.add(tmpArray);
-            } else {
-                System.out.println("Incorrect type");
-            }
+        for (int i = 0; i < row; i++) {
+            String line = scanner.nextLine();
+            result.add(line);
         }
+        scanner.next();
 
-        return place;
+        return result;
     }
 
-    private static void print(List<String[]> lst) {
-        System.out.println();
-        if (lst != null)
-            lst.forEach(
-                    it -> {
-                        for (String str: it) {
-                            System.out.print(str + " ");
-                        }
-                        System.out.println();
-                    }
-            );
+    public void print(@NotNull List<String> array) {
+        if (array.isEmpty()) {
+            System.out.println("Пустой массив");
+            return;
+        }
+        array.stream().forEach(it -> System.out.print(it + " "));
     }
 }
