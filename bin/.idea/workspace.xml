@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2bb5758-3905-4a74-9739-ea1ee9cbd8b3" name="Changes" comment="leetcode36">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/Collections/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/algorithms/Algorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/codeforces/Ozon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/leetcode/easy/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/MyThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/MyThread3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/data/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/future/Service/MyExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/future/SquareCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/philosopher/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/rx/MyRXJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/Algorithm/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/Algorithm/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/TaskA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/TaskC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/YandexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/AlgorithmsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/easy/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/threads/future/ExecutorServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/ChatGPT/OpenAiApiExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/leetcode/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/TaskB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/TaskB.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="93mss2j6" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2FfPa6lJ6CxZKFjrtNqynQCuBgO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last.edited.regexp": "sad123",
+    "last_opened_file_path": "E:/develop/Study/Java/catalizator",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.SolutionTest.sumOfUnique">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.leetcode.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ivanovds.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.ivanovds.leetcode.easy.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.leetcode.easy.Solution" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ivanovds.leetcode.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.countPrefixesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.easy" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.SolutionTest" />
+      <option name="METHOD_NAME" value="countPrefixesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.findFinalValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.easy" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.SolutionTest" />
+      <option name="METHOD_NAME" value="findFinalValueTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.sumOfUnique" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.easy" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.SolutionTest" />
+      <option name="METHOD_NAME" value="sumOfUnique" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SolutionTest.sumOfUnique" />
+        <item itemvalue="JUnit.SolutionTest.countPrefixesTest" />
+        <item itemvalue="Application.ru.ivanovds.leetcode.easy.Solution" />
+        <item itemvalue="JUnit.SolutionTest.findFinalValueTest" />
+        <item itemvalue="Application.Solution" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2bb5758-3905-4a74-9739-ea1ee9cbd8b3" name="Changes" comment="" />
+      <created>1664880228206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664880228206</updated>
+      <workItem from="1664880231661" duration="2430000" />
+      <workItem from="1665576290187" duration="940000" />
+      <workItem from="1665720828943" duration="233000" />
+      <workItem from="1666070401205" duration="100000" />
+      <workItem from="1666076444492" duration="101000" />
+      <workItem from="1666266818753" duration="661000" />
+      <workItem from="1668403718397" duration="2998000" />
+      <workItem from="1668413482495" duration="31000" />
+      <workItem from="1670837466950" duration="6593000" />
+      <workItem from="1670905003009" duration="8151000" />
+      <workItem from="1670922157339" duration="2141000" />
+      <workItem from="1670926733304" duration="4346000" />
+      <workItem from="1670993102429" duration="2162000" />
+      <workItem from="1672141538588" duration="2794000" />
+      <workItem from="1672219962980" duration="723000" />
+      <workItem from="1672221556030" duration="206000" />
+      <workItem from="1672288976718" duration="4710000" />
+    </task>
+    <task id="LOCAL-00001" summary="leetcode36">
+      <created>1672316432241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672316432241</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="leetcode36" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode36" />
+  </component>
+</project>
