@@ -5,33 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2bb5758-3905-4a74-9739-ea1ee9cbd8b3" name="Changes" comment="leetcode36">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/Collections/MyHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/algorithms/Algorithms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/codeforces/Ozon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/leetcode/easy/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/MyThread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/MyThread3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/data/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/future/Service/MyExecutorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/future/SquareCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/philosopher/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/rx/MyRXJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/Algorithm/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/Algorithm/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/TaskA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/TaskC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/YandexTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/AlgorithmsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/easy/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/threads/future/ExecutorServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/workout/Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/ChatGPT/OpenAiApiExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/leetcode/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/TaskB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/TaskB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/Algorithm/Task1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/Algorithm/Task2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/Algorithm/Task4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/TaskA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/TaskC.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +57,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last.edited.regexp": "sad123",
-    "last_opened_file_path": "E:/develop/Study/Java/catalizator",
+    "last_opened_file_path": "E:/develop/Study/Java/git/JavaStudy",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,13 +68,13 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SolutionTest.sumOfUnique">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.leetcode.Solution" />
+  <component name="RunManager" selected="Application.Task2">
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.yandex.workout.Task2" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ivanovds.leetcode.*" />
+          <option name="PATTERN" value="ru.ivanovds.yandex.workout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task2" />
         <item itemvalue="JUnit.SolutionTest.sumOfUnique" />
         <item itemvalue="JUnit.SolutionTest.countPrefixesTest" />
         <item itemvalue="Application.ru.ivanovds.leetcode.easy.Solution" />
         <item itemvalue="JUnit.SolutionTest.findFinalValueTest" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
