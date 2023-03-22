@@ -11,6 +11,7 @@ public class ArrayListEx1 {
         arrayList1.add("Zaur");
         arrayList1.add("Ivan");
         arrayList1.add("Mariay");
+        arrayList1.add(null);
         arrayList1.add(7);
         arrayList1.add(true);
 

@@ -89,10 +89,66 @@ public class Solution {
         }
         return sb.toString();
     }
+    public int maxDepth(TreeNode root) {
+        if (root == null) return 0;
+        int left = maxDepth(root.left);
+        int right = maxDepth(root.right);
 
-//    public final TreeNode getTargetCopy(final TreeNode original, final TreeNode cloned, final TreeNode target) {
-//
-//    }
+        return Math.max(left, right) + 1;
+    }
+
+    public List<List<Integer>> generate(int numRows) {
+        int n = numRows;
+
+        List<List<Integer>> result = new ArrayList<>();
+        List<Integer> prevList = null; // temp for prev row
+
+        // for each row
+        for (int r = 1; r <= n; r++) {
+            List<Integer> list = new ArrayList<>();
+
+            // for each col
+            for (int c = 1; c <= r; c++) {
+                // first and last item, print 1
+                if (c == 1 || c == r) {
+                    list.add(1);
+                } else {
+                    // for the middle items, we get from the prev row
+                    list.add(prevList.get(c - 2) + prevList.get(c - 1));
+                }
+            }
+
+            result.add(list);
+            prevList = list;
+        }
+
+
+        return result;
+    }
+
+    public ListNode reverseList(ListNode head) {
+        if (head != null) {
+            return head;
+        }
+        ListNode node = head;
+        ListNode prev = null;
+        ListNode reversed = null;
+
+        while (node != null) {
+            final ListNode next = node.next;
+
+            if (node.next == null) {
+                reversed = node;
+            }
+
+            node.next = prev;
+            prev = node;
+            node = next;
+        }
+
+        return reversed;
+    }
+
 }
 
 
@@ -100,5 +156,18 @@ class TreeNode {
       int val;
       TreeNode left;
       TreeNode right;
-      TreeNode(int x) { val = x; }
+      TreeNode(int val) { this.val = val; }
+      TreeNode(int val, TreeNode left, TreeNode right) {
+          this.val = val;
+          this.left = left;
+          this.right = right;
+      }
+}
+
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }

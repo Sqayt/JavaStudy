@@ -30,4 +30,13 @@ public class SolutionTest {
 
         Assertions.assertEquals(solution.sumOfUnique(nums), 4);
     }
+
+    @Test
+    public void generateTest() {
+        solution.generate(5);
+    }
+
+    @Test
+    public void reverseListTest() {
+    }
 }

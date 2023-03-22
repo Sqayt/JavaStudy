@@ -5,14 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2bb5758-3905-4a74-9739-ea1ee9cbd8b3" name="Changes" comment="leetcode36">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/workout/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/Collections/MyVector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/leetcode/medium/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/threads/executorsServices/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/algorithm3/TaskA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/shbr/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/shbr/App3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/stagirovka/TaskA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/stagirovka/TaskB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/trenirovka/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Yandex/algorithm3/TaskATest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/medium/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/Algorithm/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/Algorithm/Task2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/Algorithm/Task4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/TaskA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/TaskB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/TaskC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/Collections/ArrayListEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/Collections/ArrayListEx1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/Pools/InternalStringsLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/Pools/Polls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/buffred/Compresssion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/buffred/Compresssion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/leetcode/easy/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/leetcode/easy/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YandexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YandexTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/easy/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/easy/SolutionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +78,13 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Task2">
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.yandex.workout.Task2" />
+  <component name="RunManager" selected="Application.ru.ivanovds.yandex.trenirovka.Solution">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.yandex.shbr.App" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ivanovds.yandex.workout.*" />
+          <option name="PATTERN" value="ru.ivanovds.yandex.shbr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.ivanovds.leetcode.easy.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.leetcode.easy.Solution" />
+    <configuration name="App3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.yandex.shbr.App3" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ivanovds.leetcode.easy.*" />
+          <option name="PATTERN" value="ru.ivanovds.yandex.shbr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,49 +105,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.countPrefixesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.leetcode.medium.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.easy.*" />
+          <option name="PATTERN" value="ru.ivanovds.leetcode.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.easy" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.SolutionTest" />
-      <option name="METHOD_NAME" value="countPrefixesTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.findFinalValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ru.ivanovds.yandex.trenirovka.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.yandex.trenirovka.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.easy.*" />
+          <option name="PATTERN" value="ru.ivanovds.yandex.trenirovka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.easy" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.SolutionTest" />
-      <option name="METHOD_NAME" value="findFinalValueTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.sumOfUnique" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.generateParenthesisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.easy.*" />
+          <option name="PATTERN" value="leetcode.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.easy" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.SolutionTest" />
-      <option name="METHOD_NAME" value="sumOfUnique" />
+      <option name="PACKAGE_NAME" value="leetcode.medium" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.SolutionTest" />
+      <option name="METHOD_NAME" value="generateParenthesisTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="JUnit.SolutionTest.sumOfUnique" />
-        <item itemvalue="JUnit.SolutionTest.countPrefixesTest" />
-        <item itemvalue="Application.ru.ivanovds.leetcode.easy.Solution" />
-        <item itemvalue="JUnit.SolutionTest.findFinalValueTest" />
+        <item itemvalue="Application.ru.ivanovds.yandex.trenirovka.Solution" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="JUnit.SolutionTest.generateParenthesisTest" />
+        <item itemvalue="Application.App3" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -206,5 +210,28 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="leetcode36" />
     <option name="LAST_COMMIT_MESSAGE" value="leetcode36" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/shbr/App.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/shbr/App.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
