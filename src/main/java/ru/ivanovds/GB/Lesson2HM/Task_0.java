@@ -1,22 +1,11 @@
-package ru.ivanovds.GB;
+package ru.ivanovds.GB.Lesson2HM;
 
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Task_0 {
-    Scanner scan = new Scanner(System.in);
+    private final static Scanner scan = new Scanner(System.in);
 
-    public static void main(String[] args) {
-        Task_0 task0 = new Task_0();
-        String jewels = task0.input();
-        String stones = task0.input();
-        String result = task0.findJewelsInStones(jewels, stones);
-
-        System.out.println(result);
-    }
-
-    private String input() {
+    private static String input() {
         while (true) {
             if (scan.hasNextLine()) {
                 return scan.nextLine();
@@ -26,7 +15,7 @@ public class Task_0 {
         }
     }
 
-    public String findJewelsInStones(String jewels, String stones) {
+    public static String findJewelsInStones(String jewels, String stones) {
         char[] arrayJewels = jewels.toCharArray();
         char[] arrayStones = stones.toCharArray();
 
@@ -58,5 +47,16 @@ public class Task_0 {
         } else {
             return ++x;
         }
+    }
+
+    public static void main(String[] args) {
+        String jewels = input();
+        String stones = input();
+        String result = findJewelsInStones(jewels, stones);
+        System.out.println(result);
+
+//        Test
+//        System.out.println(findJewelsInStones("aB", "aaaAbbbB").equals("a3B1")
+//                ? "Test is complete" : "Test is not complete");
     }
 }
