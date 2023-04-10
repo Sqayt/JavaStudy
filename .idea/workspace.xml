@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2bb5758-3905-4a74-9739-ea1ee9cbd8b3" name="Changes" comment="leetcode36">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/GB/Lesson2HM/Task_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/GB/Lesson2HM/Task_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/GB/Lesson2HM/Task_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/GB/Lesson2HM/Task_3Two.java" afterDir="false" />
+    <list default="true" id="c2bb5758-3905-4a74-9739-ea1ee9cbd8b3" name="Changes" comment="gb">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/GB/Lesson3HM/Task_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/GB/Lesson3HM/Task_2_And_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/GB/Task_0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/GB/Lesson2HM/Task_0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/GB/Lesson2HM/Task_3Two.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/GB/Lesson2HM/Task_3Two.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +64,13 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Task_3Two">
-    <configuration name="Task_0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.GB.Task_0" />
+  <component name="RunManager" selected="Application.Task_2_And_3">
+    <configuration name="Task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.GB.Lesson2HM.Task_1" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ivanovds.GB.*" />
+          <option name="PATTERN" value="ru.ivanovds.GB.Lesson2HM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.GB.Lesson2HM.Task_1" />
+    <configuration name="Task_2_And_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.GB.Lesson3HM.Task_2_And_3" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ivanovds.GB.Lesson2HM.*" />
+          <option name="PATTERN" value="ru.ivanovds.GB.Lesson3HM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.ivanovds.GB.Lesson2HM.Task_0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.GB.Lesson2HM.Task_0" />
+    <configuration name="ru.ivanovds.GB.Lesson3HM.Task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.GB.Lesson3HM.Task_1" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ivanovds.GB.Lesson2HM.*" />
+          <option name="PATTERN" value="ru.ivanovds.GB.Lesson3HM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task_2_And_3" />
+        <item itemvalue="Application.ru.ivanovds.GB.Lesson3HM.Task_1" />
         <item itemvalue="Application.Task_3Two" />
         <item itemvalue="Application.Task_3" />
         <item itemvalue="Application.Task_1" />
-        <item itemvalue="Application.ru.ivanovds.GB.Lesson2HM.Task_0" />
-        <item itemvalue="Application.Task_0" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680092575283</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="gb">
+      <created>1680867196484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680867196484</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +213,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="leetcode36" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode36" />
+    <MESSAGE value="gb" />
+    <option name="LAST_COMMIT_MESSAGE" value="gb" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

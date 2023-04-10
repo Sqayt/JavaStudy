@@ -2,7 +2,6 @@ package ru.ivanovds.GB.Lesson2HM;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.core.util.FileUtils;
 
 import java.io.*;
 import java.net.URL;
