@@ -1,4 +1,4 @@
-package ru.ivanovds.designPatterns;
+package ru.ivanovds.designPatterns.generate.singlethon;
 
 /*
  * 	Плюсы:
@@ -9,7 +9,7 @@ package ru.ivanovds.designPatterns;
  * 	Минусы:
  * 		- Не ленивая иницализация
  */
-//Самый простой, для маленьких проектов пойдет
+//TODO Самый простой, для маленьких проектов пойдет
 class SingletonEager {
 	private static SingletonEager instance = new SingletonEager();
 	
@@ -27,7 +27,7 @@ class SingletonEager {
  * 		- Ленивая инициализация
  * 	
  * 	Минусы:
- * 		- Не потоко безопасна
+ * 		- Не потока безопасна
  */
 //TODO Неплохой вариант
 class SingletonLazy {
@@ -80,7 +80,7 @@ class SyncSingletonVer1 {
  * 	Минусы:
  * 		- Не подерживается в версиях java 1.5 (java 5), раньше ставилась volitale
  */
-//Считается самым лучшим вариантом
+//TODO Считается самым лучшим вариантом
 class SyncSingletonVer2 {
 	private static SyncSingletonVer2 instance;
 	
@@ -88,7 +88,6 @@ class SyncSingletonVer2 {
 		
 	}
 	
-	//TODO Самая мутная вещь, надо получше поизучать
 	public static synchronized SyncSingletonVer2 getInstance() {
 		if (instance == null) {
 			synchronized (SyncSingletonVer2.class) {
