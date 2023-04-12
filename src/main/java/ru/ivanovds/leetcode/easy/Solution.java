@@ -149,6 +149,74 @@ public class Solution {
         return reversed;
     }
 
+    public int[] leftRigthDifference(int[] nums) {
+        int[] leftSum = new int[nums.length];
+        int[] rightSum = new int[nums.length];
+
+
+        for (int i = 0; i < leftSum.length; i++) {
+            leftSum[i] = sumLeft(i, nums);
+            rightSum[i] = sumRight(i, nums);
+        }
+
+        int[] array = new int[nums.length];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = Math.abs(leftSum[i] - rightSum[i]);
+        }
+
+        return array;
+    }
+
+    public int sumLeft(int i, int[] array) {
+        int tmp = 0;
+        for (int j = 0; j < i; j++) {
+            tmp += array[j];
+        }
+
+        return tmp;
+    }
+
+    public int sumRight(int i, int[] array) {
+        int tmp = 0;
+        for (int j = array.length - 1; j > i ; j--) {
+            tmp += array[j];
+        }
+
+        return tmp;
+    }
+
+    public int deepestLeavesSum(TreeNode root) {
+        int res = 0, i;
+        LinkedList<TreeNode> q = new LinkedList<TreeNode>();
+        q.add(root);
+        while (!q.isEmpty()) {
+            for (i = q.size() - 1, res = 0; i >= 0; --i) {
+                TreeNode node = q.poll();
+                res += node.val;
+                if (node.right != null) q.add(node.right);
+                if (node.left  != null) q.add(node.left);
+            }
+        }
+        return res;
+    }
+
+    public int[] createTargetArray(int[] nums, int[] index) {
+        List<Integer> result = new ArrayList<>();
+        for (int i = 0; i < nums.length; i++) {
+            result.add(index[i], nums[i]);
+        }
+        int[] target = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            target[i] = result.get(i);
+        }
+
+        return target;
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        System.out.println(Arrays.toString(solution.createTargetArray(new int[] {0, 1, 2, 3, 4}, new int[] {0, 1, 2, 2, 1})));
+    }
 }
 
 

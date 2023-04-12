@@ -1,7 +1,7 @@
-package ru.ivanovds.designPatterns.generate.builder;
+package ru.ivanovds.designPatterns.creational.builder;
 
-import ru.ivanovds.designPatterns.generate.builder.models.Person;
-import ru.ivanovds.designPatterns.generate.builder.models.Vehicle;
+import ru.ivanovds.designPatterns.creational.builder.models.Person;
+import ru.ivanovds.designPatterns.creational.builder.models.Vehicle;
 
 public class BuilderPattern {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ru.ivanovds.designPatterns.generate.builder.models;
+package ru.ivanovds.designPatterns.creational.builder.models;
 
 import java.util.Set;
 

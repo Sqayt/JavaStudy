@@ -39,4 +39,9 @@ public class SolutionTest {
     @Test
     public void reverseListTest() {
     }
+
+    @Test
+    void leftRigthDifferenceTest() {
+        solution.leftRigthDifference(new int[]{10, 4, 8, 3});
+    }
 }

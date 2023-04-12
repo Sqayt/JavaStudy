@@ -1,4 +1,4 @@
-package ru.ivanovds.designPatterns.generate.singlethon;
+package ru.ivanovds.designPatterns.creational.singlethon;
 
 /*
  * 	Плюсы:

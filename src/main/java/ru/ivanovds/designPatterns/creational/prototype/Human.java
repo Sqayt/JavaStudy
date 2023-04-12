@@ -1,6 +1,6 @@
-package ru.ivanovds.designPatterns.generate.prototype;
+package ru.ivanovds.designPatterns.creational.prototype;
 
-import ru.ivanovds.designPatterns.generate.prototype.inter.Prototype;
+import ru.ivanovds.designPatterns.creational.prototype.inter.Prototype;
 
 public class Human implements Prototype {
 

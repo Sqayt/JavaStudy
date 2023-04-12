@@ -1,6 +1,6 @@
-package ru.ivanovds.designPatterns.generate.decorator.inter.impl;
+package ru.ivanovds.designPatterns.structural.decorator.inter.impl;
 
-import ru.ivanovds.designPatterns.generate.decorator.inter.ChristmasTree;
+import ru.ivanovds.designPatterns.structural.decorator.inter.ChristmasTree;
 
 public class ChristmasTreeImpl implements ChristmasTree {
 

@@ -4,32 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2bb5758-3905-4a74-9739-ea1ee9cbd8b3" name="Changes" comment="HomeWork gb 3 java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/GB/Lesson4HM/Task_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/GB/Lesson4HM/Task_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/GB/Lesson5HM/Task_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/GB/Lesson5HM/Task_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/builder/BuilderPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/builder/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/builder/models/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/builder/models/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/decorator/BubbleLights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/decorator/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/decorator/TreeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/decorator/inter/ChristmasTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/decorator/inter/impl/ChristmasTreeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/decorator/myRes/8poz64T.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/prototype/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/prototype/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/prototype/inter/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/inputSTDIN/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/writeFile/MainApp.java" afterDir="false" />
+    <list default="true" id="c2bb5758-3905-4a74-9739-ea1ee9cbd8b3" name="Changes" comment="Add ru.ivanovds.GB.Lesson6HM.MainApp">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/structural/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/structural/adapter/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/structural/adapter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/structural/adapter/inter/ShortMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/structural/adapter/models/Letter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/structural/adapter/models/ShortMessageLetterAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/structural/decorator/inter/ChristmasTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/leetcode/courses/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/contest/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/yandex/contest/TaskD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/Pools/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/Pools/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/FactoryPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/factory/FactoryPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/SingletonPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/singlethon/SingletonPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/Pools/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/creational/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/builder/BuilderPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/creational/builder/BuilderPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/builder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/creational/builder/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/builder/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/creational/builder/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/builder/models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/creational/builder/models/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/decorator/BubbleLights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/structural/decorator/BubbleLights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/decorator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/structural/decorator/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/decorator/TreeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/structural/decorator/TreeDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/decorator/inter/ChristmasTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/decorator/inter/impl/ChristmasTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/structural/decorator/inter/impl/ChristmasTreeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/decorator/myRes/8poz64T.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/structural/decorator/myRes/8poz64T.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/factory/FactoryPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/creational/factory/FactoryPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/prototype/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/creational/prototype/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/prototype/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/creational/prototype/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/prototype/inter/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/creational/prototype/inter/Prototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/generate/singlethon/SingletonPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/designPatterns/creational/singlethon/SingletonPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ivanovds/leetcode/easy/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ivanovds/leetcode/easy/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/easy/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/easy/SolutionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,25 +72,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last.edited.regexp": "sad123",
-    "last_opened_file_path": "E:/develop/Study/Java/git/JavaStudy/src/main/java/ru/ivanovds/designPatterns/generate/decorator/myRes/8poz64T.jpg",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last.edited.regexp&quot;: &quot;sad123&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/develop/git/ComputerVision&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Markdown&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.ivanovds.designPatterns.structural.adapter.models" />
+      <recent name="ru.ivanovds.designPatterns.structural.adapter.inter" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\develop\Study\Java\git\JavaStudy\src\main\java\ru\ivanovds\designPatterns\generate\decorator" />
     </key>
@@ -94,13 +108,13 @@
       <recent name="E:\develop\Study\Java\git\JavaStudy\src\main\java\ru\ivanovds\designPatterns\generate\decorator\myRes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Human">
-    <configuration name="Human" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.designPatterns.generate.prototype.Human" />
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.yandex.contest.MainApp" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ivanovds.designPatterns.generate.prototype.*" />
+          <option name="PATTERN" value="ru.ivanovds.yandex.contest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_2_And_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.GB.Lesson3HM.Task_2_And_3" />
+    <configuration name="Polls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.Pools.Polls" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ivanovds.GB.Lesson3HM.*" />
+          <option name="PATTERN" value="ru.ivanovds.Pools.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.GB.Lesson4HM.Task_4" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.leetcode.courses.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ivanovds.GB.Lesson4HM.*" />
+          <option name="PATTERN" value="ru.ivanovds.leetcode.courses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.ivanovds.GB.Lesson3HM.Task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.GB.Lesson3HM.Task_1" />
+    <configuration name="ru.ivanovds.leetcode.easy.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.leetcode.easy.Solution" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ivanovds.GB.Lesson3HM.*" />
+          <option name="PATTERN" value="ru.ivanovds.leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,26 +161,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.ivanovds.GB.Lesson4HM.Task_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.ivanovds.GB.Lesson4HM.Task_3" />
+    <configuration name="SolutionTest.leftRigthDifferenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.ivanovds.GB.Lesson4HM.*" />
+          <option name="PATTERN" value="leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="leetcode.easy" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.SolutionTest" />
+      <option name="METHOD_NAME" value="leftRigthDifferenceTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Human" />
-        <item itemvalue="Application.Task_4" />
-        <item itemvalue="Application.ru.ivanovds.GB.Lesson4HM.Task_3" />
-        <item itemvalue="Application.Task_2_And_3" />
-        <item itemvalue="Application.ru.ivanovds.GB.Lesson3HM.Task_1" />
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.ru.ivanovds.leetcode.easy.Solution" />
+        <item itemvalue="JUnit.SolutionTest.leftRigthDifferenceTest" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Polls" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681118105644</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Изучаю паттерны">
+      <created>1681203642218</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681203642218</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add ru.ivanovds.GB.Lesson6HM.MainApp">
+      <created>1681275949475</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681275949475</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +283,9 @@
     <MESSAGE value="leetcode36" />
     <MESSAGE value="gb" />
     <MESSAGE value="HomeWork gb 3 java" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork gb 3 java" />
+    <MESSAGE value="Изучаю паттерны" />
+    <MESSAGE value="Add ru.ivanovds.GB.Lesson6HM.MainApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ru.ivanovds.GB.Lesson6HM.MainApp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -281,5 +314,10 @@
         <breakpoint enabled="true" type="java-exception" />
       </default-breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

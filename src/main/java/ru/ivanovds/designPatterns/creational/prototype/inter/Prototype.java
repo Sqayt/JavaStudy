@@ -1,4 +1,4 @@
-package ru.ivanovds.designPatterns.generate.prototype.inter;
+package ru.ivanovds.designPatterns.creational.prototype.inter;
 
 public interface Prototype {
 

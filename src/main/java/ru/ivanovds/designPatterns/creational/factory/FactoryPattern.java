@@ -1,4 +1,4 @@
-package ru.ivanovds.designPatterns.generate.factory;
+package ru.ivanovds.designPatterns.creational.factory;
 
 abstract class Vehicle {
 	public abstract int getWheel();
