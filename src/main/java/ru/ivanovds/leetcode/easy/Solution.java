@@ -213,9 +213,63 @@ public class Solution {
         return target;
     }
 
+    public int strStr(String haystack, String needle) {
+        return haystack.indexOf(needle);
+    }
+
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        int[] result = new int[m + n];
+        int tmp = 0;
+        for (int i = 0; i < m; i++, tmp++) {
+            result[i] = nums1[i];
+        }
+
+        for (int i = tmp; i < n + m; i++) {
+            result[i] = nums2[i - tmp];
+        }
+        
+        Arrays.sort(result);
+        nums1 = result;
+    }
+
+    public void merge1(int[] nums1, int m, int[] nums2, int n) {
+        int tail1 = m - 1, tail2 = n - 1, finished = m + n - 1;
+        while (tail1 >= 0 && tail2 >= 0) {
+            nums1[finished--] = (nums1[tail1] > nums2[tail2]) ?
+                    nums1[tail1--] : nums2[tail2--];
+        }
+
+        while (tail2 >= 0) { //only need to combine with remaining nums2, if any
+            nums1[finished--] = nums2[tail2--];
+        }
+    }
+
+    public List<Integer> inorderTraversal(TreeNode root) {
+        ArrayList<Integer> result = new ArrayList<>();
+        traverseInOrder(root, result);
+
+        return result;
+    }
+
+    public void traverseInOrder(TreeNode node, List<Integer> res) {
+        if (node != null) {
+            traverseInOrder(node.left, res);
+            res.add(node.val);
+            traverseInOrder(node.right, res);
+        }
+    }
+
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(Arrays.toString(solution.createTargetArray(new int[] {0, 1, 2, 3, 4}, new int[] {0, 1, 2, 2, 1})));
+        System.out.println(solution.inorderTraversal(new TreeNode(
+                1,
+                null,
+                new TreeNode (
+                        2,
+                        new TreeNode(3),
+                        new TreeNode()
+                )
+        )));
     }
 }
 
@@ -224,6 +278,7 @@ class TreeNode {
       int val;
       TreeNode left;
       TreeNode right;
+      TreeNode(){}
       TreeNode(int val) { this.val = val; }
       TreeNode(int val, TreeNode left, TreeNode right) {
           this.val = val;
