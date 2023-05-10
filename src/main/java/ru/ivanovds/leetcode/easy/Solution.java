@@ -1,6 +1,9 @@
 package ru.ivanovds.leetcode.easy;
 
 import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class Solution {
 
@@ -224,9 +227,7 @@ public class Solution {
             result[i] = nums1[i];
         }
 
-        for (int i = tmp; i < n + m; i++) {
-            result[i] = nums2[i - tmp];
-        }
+        if (n + m - tmp >= 0) System.arraycopy(nums2, tmp - tmp, result, tmp, n + m - tmp);
         
         Arrays.sort(result);
         nums1 = result;
@@ -259,20 +260,154 @@ public class Solution {
         }
     }
 
+    public int[] decompressRLElist(int[] nums) {
+        int[] result = new int[]{};
+        int freq = 0;
+        int val = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            if (i % 2 == 0) {
+                freq = nums[i];
+            } else {
+                val = nums[i];
+            }
+            if (i % 2 != 0) {
+                int[] newArray = generate(freq, val);
+                result = concatArray(result, newArray);
+            }
+        }
+
+        return result;
+    }
+
+    public int[] generate(int freq, int val) {
+        int[] array = new int[freq];
+        Arrays.fill(array, val);
+
+        return array;
+    }
+
+    public int[] concatArray(int[] array, int[] array2) {
+        return IntStream.concat(Arrays.stream(array), Arrays.stream(array2)).toArray();
+    }
+
+    public int[] decode(int[] array, int first) {
+        int size = array.length;
+        int[] res = new int[size + 1];
+        res[0] = first;
+        for (int i = 0; i < size; ++i) {
+            res[i + 1] = res[i] ^ array[i];
+        }
+
+        return res;
+    }
+
+    int ans;
+
+    public int rangeSumBST(TreeNode root, int low, int high) {
+        ans = 0;
+        dfs(root, low, high);
+
+        return ans;
+    }
+
+    public void dfs(TreeNode node, int low, int high) {
+        if (node != null) {
+            if (low <= node.val && node.val <= high)
+                ans += node.val;
+            if (low < node.val)
+                dfs(node.left, low, high);
+            if (node.val < high)
+                dfs(node.right, low, high);
+        }
+    }
+
+    public int balancedStringSplit(String s) {
+        String[] words = s.split("");
+        int ans = 0;
+        int result = 0;
+
+        for (int i = 0; i < words.length; i++) {
+            if (words[i].equals("R"))
+                ans++;
+            else if (words[i].equals("L"))
+                ans--;
+            if (ans == 0)
+                result++;
+        }
+
+        return result;
+    }
+
+    public int sumOfMultiples(int n) {
+        int res = 0;
+        for (int i = 1; i <= n; i++) {
+            if (i % 3 == 0) res += i;
+            else if (i % 5 == 0) res += i;
+            else if (i % 7 == 0) res += i;
+        }
+        return res;
+    }
+
+    public int xorOperation(int n, int start) {
+        int res = start;
+        for (int i = 1; i < n; i++) {
+            res = res ^ (start + 2 * i);
+        }
+
+        return res;
+    }
+
+    public List<String> cellsInRange(String s) {
+        String[] coord = s.split(":");
+        String[] first = coord[0].split("");
+        String[] last = coord[1].split("");
+
+        String firstElement = first[0];
+        int firstNumber = Integer.parseInt(first[1]);
+        String lastElement = last[0];
+        int lastNumber = Integer.parseInt(last[1]);
+
+        List<String> result = new ArrayList<>();
+        for (int i = firstElement.charAt(0); i <= lastElement.charAt(0); i++) {
+            for (int j = firstNumber; j <= lastNumber; j++) {
+                result.add(Character.toString(i).concat(String.valueOf(j)));
+            }
+        }
+
+        return result;
+    }
+
+    public String decodeMessage(String key, String message) {
+        String[] keys = key.replaceAll(" ", "").split("");
+        String keyIndex = new LinkedHashSet<>(Arrays.asList(keys)).toString()
+                .replaceAll("(^\\[|\\]$)", "")
+                .replace(", " ,"");
+
+        String[] messageIndex = message.split("");
+        List<Integer> indexAll = new ArrayList<>();
+
+        for (String index : messageIndex) {
+            if (index.equals(" ")) {
+                indexAll.add(32);
+                continue;
+            }
+            indexAll.add(keyIndex.indexOf(index) + 97);
+        }
+
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < messageIndex.length; i++) {
+            sb.append((char) (int) indexAll.get(i));
+        }
+
+        return sb.toString();
+    }
+
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.inorderTraversal(new TreeNode(
-                1,
-                null,
-                new TreeNode (
-                        2,
-                        new TreeNode(3),
-                        new TreeNode()
-                )
-        )));
+        System.out.println(solution.decodeMessage("eljuxhpwnyrdgtqkviszcfmabo", "zwx hnfx lqantp mnoeius ycgk vcnjrdb"));
     }
 }
-
 
 class TreeNode {
       int val;

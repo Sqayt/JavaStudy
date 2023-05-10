@@ -14,29 +14,41 @@ public class Main {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int[] size = Arrays.stream(reader.readLine().split(" "))
-                .mapToInt(Integer::parseInt)
-                .toArray();
-
-        int[][] table = new int[size[0]][size[1]];
-        for (int i = 0; i < size[0]; i++) {
-            int[] num = Arrays.stream(reader.readLine().split(" "))
-                    .mapToInt(Integer::parseInt)
-                    .toArray();
-            if (size[1] >= 0) System.arraycopy(num, 0, table[i], 0, size[1]);
-        }
-
-        for (int[] array: table) {
-            for (int nums: array) {
-                System.out.print(nums + " ");
-            }
-            System.out.println();
-        }
+        chess(reader);
 
         reader.close();
         writer.close();
     }
 
+    /**
+     *  Надо побольшу поизучать, пока не понятно
+     *  Анализ алгоритма:
+     *  Пусть dp[i][j] содержит количество способов, которыми можно добраться из левого верхнего угла – клетки
+     *  с координатами (1, 1) в правый нижний угол – клетку с координатами (n, m). Изначально обнулим массив dp и
+     *  положим dp[1][1] = 1.
+     *
+     *  Согласно ходам коня в клетку (i, j) можно попасть либо из (i – 1, j – 2), либо из (i – 2, j – 1). Следовательно
+     *  dp[i][j] = dp[i – 1][j – 2] + dp[i – 2][j – 1]
+     *
+     * @param reader
+     * @throws IOException
+     */
+
+    private static void chess(BufferedReader reader) throws IOException {
+        String[] size = reader.readLine().split(" ");
+        int N = Integer.parseInt(size[0]);
+        int M = Integer.parseInt(size[1]);
+
+        int[][] chess = new int[N + 1][M + 1];
+        chess[1][1] = 1;
+        for (int i = 2; i <= N; i++) {
+            for (int j = 2; j <= M; j++) {
+                chess[i][j] = chess[i - 1][j - 2] + chess[i - 2][j - 1];
+            }
+        }
+
+        System.out.println(chess[N][M]);
+    }
 
 
     private static void carnations(BufferedReader reader) throws IOException {
