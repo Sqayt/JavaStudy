@@ -5,8 +5,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.*;
 
 public class Main {
 
@@ -14,10 +13,19 @@ public class Main {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        chess(reader);
-
         reader.close();
         writer.close();
+    }
+
+    private static void uniqueWords(BufferedReader reader) throws IOException {
+        Set<String> result = new HashSet<>();
+
+        String word;
+        while (((word = reader.readLine()) != null) && (!word.equals(""))) {
+            String[] newWords = word.split(" ");
+            result.addAll(Arrays.asList(newWords));
+        }
+        System.out.println(result.size());
     }
 
     /**
